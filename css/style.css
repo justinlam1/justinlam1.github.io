@@ -1,0 +1,163 @@
+html,body {
+height: 100%;
+  font-family: 'Roboto', sans-serif;
+  overflow:auto;
+
+}
+
+.navbar {
+  background: #5BC0BE;
+  opacity: 0.35;
+color: #6FFFE9;
+      transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+.navbar:hover {
+  opacity: 1;
+    transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+.profilepic {
+  height: 120px;
+  width: 120px;
+  border: 1px solid #D3D3D3;
+  border-radius: 50%;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 52px;
+}
+
+#subheading {
+  color: #F8F8FF;
+  font-size: 24px;
+}
+
+.sectionone {
+  background: url('http://tinyimg.io/i/GGg6xO9.jpeg');
+  min-height: 100%;
+  /* used for parallax effect*/
+      background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+  position: static;
+  
+}
+
+.vertical-center {
+   min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.one {
+margin: 0 auto;
+  text-shadow: 1px 1px #000000;
+  color: #5BC0BE;
+}
+
+.downicon {
+  margin-top: 50px;
+  position: static;
+  font-size: 40px;
+}
+
+.aboutme {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 200%;
+  font-size: 18px;
+  background-color: #5BC0BE;
+  color: #6FFFE9;
+}
+
+.sectionone hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.downicon a:link, a:visited {
+  color: #5BC0BE;
+  opacity: 0.7;
+}
+
+.downicon a:hover {
+  color: #5BC0BE;
+  text-decoration: none;
+  opacity: 1;
+}
+
+a {
+  color: #028090;
+  opacity: 0.7;
+}
+
+a:hover {
+  color: #028090;
+  opacity: 1;
+}
+
+a:visited {
+  color: #028090;
+}
+
+.projects {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #0B132B;
+  font-size: 16px;
+}
+
+.projects h2 {
+  margin-bottom: 50px;
+}
+
+.projects img {
+  width: 360px;
+border: 1px solid #1C2541;
+  border-radius: 3%;
+  margin: auto;
+}
+
+#linkicon {
+  border: none;
+  width: 24px;
+  height: 24px;
+  margin-top: -4px;
+}
+
+.contact {
+  background-color: #0B132B;
+    padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 auto;
+   text-align: center;
+}
+
+.test {
+display: inline-block;
+  text-align: left;
+}
+
+.contact img {
+  color: #5BC0BE;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.contact a:link,a:hover,a:visited {
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+}
